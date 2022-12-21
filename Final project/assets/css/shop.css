@@ -58,13 +58,25 @@
     text-align: center;
     background-size: cover;
 }
-.down{
+.downn{
     display: flex;
     justify-content: center;
     color: #fff;
     font-size: 13px;
     font-weight: 400;
     
+}
+.icccn{
+  border: 1px solid black;
+  padding: 3px 20px;
+  margin-left: 300px;
+
+  
+}
+.icccn i{
+  font-size: 20px;
+  color: #000;
+  margin: 10px;
 }
 #c{
     margin-right: 5px;
@@ -838,4 +850,7 @@ a:hover {
     margin-bottom: 20px;
 }
 
+.icccn{
+  display: none;
+}
  }
