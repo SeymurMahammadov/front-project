@@ -1,0 +1,371 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerr{
+    padding: 20px 80px;
+}
+
+.big-pic{
+    background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/about.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100%;
+}
+.all-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: #fff;
+}
+
+
+.miidd{
+    display: flex;
+}
+
+.left img{
+    width: 120px;
+    margin-right: 20px;
+}
+
+#navbarDropdown{
+    margin-right: 10px;
+}
+
+#log a{
+    color: white;
+}
+
+.mob-all {
+    display: none;
+}
+
+#b{
+    font-size: 20px;
+    color: #000;
+}
+.mob-all img{
+    max-height: 22px;
+    border: 0;
+    vertical-align: top;
+    max-width: 100%;
+    
+}
+#a{
+    font-size: 20px;
+    color: #000;
+}
+.words{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}
+.words h5{
+ margin-bottom: 10px;
+ font-family: "Marcellus", Sans-serif;
+ font-size: 18px;
+ line-height: 24px;
+ letter-spacing: 3px;
+}
+.words h1{
+    margin-bottom: 30px;
+    font-family: "Marcellus", Sans-serif;
+    font-size: 65px;
+    line-height: 63px;
+}
+
+.iconn {
+    color: white;
+    text-align: center;
+}
+.iconn i{
+    margin-bottom: 90px;
+    
+}
+
+.down-pic{
+    background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/about-us.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100%;
+}
+
+.pic img{
+    margin-top: 30px;
+}
+
+.letter{
+    margin-top: 5rem;
+}
+.letter h5{
+    font-family: "Marcellus", Sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+}
+.letter h2{
+    font-family: "Marcellus", Sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+}
+.letter p{
+    margin-bottom: 60px;
+    color: grey;
+}
+
+.slider{
+    text-align: center;
+    
+}
+.slider a{
+    text-decoration: none;
+}
+
+.slider p{
+    color: #c0a483;
+    margin-top: 4px;
+}
+.slider h4{
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: -2px;
+    margin-top: 6px;
+    letter-spacing: .1em;
+    text-transform: uppercase
+}
+
+.mid-down{
+    background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/about2.jpg);
+    background-position: bottom center;
+    background-size: auto;
+    height: 100%;
+}
+.boxx-all{
+    display:flex ;
+    justify-content: space-evenly;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.boxx i{
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.worrds-up h6{
+    font-family: "Marcellus", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.bc-clr{
+    background-color: #FAF4EE;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 55px 0px 52px 0px;
+}
+.text{
+    text-align: center;
+    color: #000000;
+    font-family: "Marcellus", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.texts h2{
+    font-family: "Marcellus",serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 7px;
+    margin-bottom: 12px;
+}
+
+.texts p{
+    margin-bottom: 1rem;
+    color: grey;
+}
+.all-cont{
+    text-align: center;
+}
+
+.foto img{
+    border-radius: 50%;
+    width: 30%;
+    
+}
+
+.foto h2{
+    margin-top : 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 600;
+    font-family: "Open Sans",sans-serif;
+}
+
+.slick-slide img {
+    display: inline;
+}
+
+.checked {
+    color: orange;
+  }
+
+.up p{
+    text-align: center;
+    text-align: center;
+    color: #000000;
+    font-family: "Marcellus", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.box{
+    border: 1px solid grey;
+    width: 98%;
+    margin-bottom: 30px;
+}
+.box img{
+    width: 100%;
+}
+
+.bc-clrr{
+    background-color: #C0A483;
+    
+}
+
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon i{
+ font-size: 50px;
+ color: white;
+ margin-right: 20px;
+ align-items: center;
+}
+
+.wrds h2{
+    margin: 0;
+    position: relative;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-family: "Marcellus",serif;
+    align-items: center;
+    font-weight: 400;
+    color: #fff;
+}
+
+.wrds p{
+    color: #fff;
+    font-family: "Marcellus",serif;
+    font-size: 16px;
+} 
+
+#ok{
+    width: 50%;
+    height: 55px;
+    line-height: 55px;
+    font-size: 14px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    
+    
+}
+
+#btn{
+    
+    padding: 0 20px;
+    background: #000;
+    height: 55px;
+    line-height: 55px;
+    font-family:" Marcellus",serif;
+    letter-spacing: .1em;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+} 
+
+#yes{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+footer{
+    background-color: #F6F6F6;
+}
+
+
+.foot-all h6{
+    font-family: "Marcellus", Sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+#pic{
+    padding-left: 140px;
+}
+
+.con{
+    display: none;
+}
+
+@media(max-width:576px){
+    .all-header{
+        display: none;
+    }
+   .mob{
+    background-color: #000000;
+    padding: 30px 0px;
+   }
+
+    .mob-all{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #a{
+        color: #fff;
+    }
+    #b{
+        color: #fff;
+    }
+
+   
+   .all-sec{
+    display: flex;
+   }
+
+   .rightt{
+    text-align: center;
+   }
+
+   #btn{
+    padding: 0 6px;
+   }
+
+  #ok{
+    padding: 5px;
+  }
+}

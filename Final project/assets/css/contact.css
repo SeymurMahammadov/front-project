@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.containerr{
+    padding: 20px 80px;
+}
+
+.all-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: black;
+}
+
+
+.miidd{
+    display: flex;
+}
+
+.left img{
+    width: 120px;
+    margin-right: 20px;
+}
+
+#navbarDropdown{
+    margin-right: 10px;
+}
+
+#log a{
+    color: black;
+}
+
+.mob-all {
+    display: none;
+}
+
+#b{
+    font-size: 20px;
+    color: #000;
+}
+.mob-all img{
+    max-height: 22px;
+    border: 0;
+    vertical-align: top;
+    max-width: 100%;
+    
+}
+
+.box{
+    border: 1px solid  #2A2B2D;
+    background-color: #2A2B2D;
+    text-align: center;
+    padding:70px 70px 80px 70px;
+    position: relative;
+    bottom: 7rem;
+    left:0;
+}
+.box h2{
+    margin-bottom: 50px;
+    color: #FFFFFF;
+    font-family: "Marcellus", Sans-serif;
+    font-size: 30px;
+    font-weight: 400;;
+}
+.all-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.word-up p{
+    font-family: Open Sans,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #868686;
+    text-align: left;
+    margin-top: 20px;
+}
+.word-up h2{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2rem;
+}
+
+#ok{
+    width: 100%;
+    color: #fff;
+    max-height: 260px;
+    padding: 110px 20px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    background: transparent;
+    border: 1px solid #3a3a3a;
+    
+}
+
+#yes{
+    height: 50px;
+    font-size: 13px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    width: 150%;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid #3a3a3a;
+    background: transparent;
+    margin-right: 20px;
+}
+#no{
+    height: 50px;
+    font-size: 13px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    width:150%;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid #3a3a3a;
+    background: transparent;
+}
+
+.icon i{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.tog{
+    display: flex;
+    justify-content: left;
+}
+.words-all{
+    margin-top: 20px;
+}
+
+#btn{
+    height: 55px;
+    line-height: 55px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Marcellus",serif;
+    letter-spacing: .1em;
+    font-weight: 400;
+    padding: 0 15px;
+    color: #fff;
+    width: 100%;
+    background: #6b6b6b;
+    border: none;
+    cursor: pointer;
+}
+.bc-clrr{
+    background-color: #2A2B2D;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 70px 0px 65px 0px;
+}
+
+
+.cont-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightt{
+ display: flex;
+    justify-content: space-between;
+}
+.iconnn i{
+ font-size: 50px;
+ color: white;
+ margin-right: 20px;
+ 
+}
+
+.wrds h2{
+    margin: 0;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-family: "Marcellus",serif;
+    align-items: center;
+    font-weight: 400;
+    color: #fff;
+}
+
+.wrds p{
+    color: #fff;
+    font-family: "Marcellus",serif;
+    font-size: 16px;
+}
+
+#okk{
+    width: 11%;
+    border: 0;
+    padding-left: 25px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 14px;
+    position: absolute;
+    
+}
+
+#btnn{
+    border: 0;
+    padding: 0 40px;
+    background: #000;
+    height: 55px;
+    line-height: 55px;
+    font-family: Marcellus,serif;
+    letter-spacing: .1em;
+    position: relative;
+    top: 0;
+    left:200px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#yesss{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+
+
+.foot-all h6{
+    font-family: "Marcellus", Sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+#pic{
+    padding-left: 140px;
+}
+
+@media(max-width:576px){
+    .all-header{
+        display: none;
+    }
+    .mob{
+        margin-top: 20px;
+    }
+    .mob-all{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    }
