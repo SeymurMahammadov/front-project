@@ -1,0 +1,451 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containeer{
+    padding: 10px 60px;
+}
+a{
+    text-decoration: none;
+}
+
+.all-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: black;
+}
+
+
+.miidd{
+    display: flex;
+}
+
+.left img{
+    width: 100px;
+    margin-right: 20px;
+}
+
+#navbarDropdown{
+    margin-right: 30px;
+}
+
+#log a{
+    color: black;
+}
+
+.mob-all {
+    display: none;
+}
+
+#b{
+    font-size: 20px;
+    color: #000;
+}
+.mob-all img{
+    max-height: 22px;
+    border: 0;
+    vertical-align: top;
+    max-width: 100%;
+    
+}
+.box{
+    width: 700px;
+    height: 800px;  
+    padding: 50px;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+#zoomC {
+    width: 100%;
+    height: 700px;
+    background: url("https://wpbingosite.com/wordpress/kowine/wp-content/webp-express/webp-images/uploads/2018/10/Wine-01-01-450x450.jpg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.slider{
+    width: 713px;
+    margin-bottom: 30px;
+}
+
+.slider a{
+    border: 1px solid gray;
+    margin-top: 10px;
+    padding: 20px;
+    margin-right: 15px;
+    
+}
+
+.slider img{
+    width: 100%;
+}
+
+.slick-next{
+    right: 5px;
+    
+}
+.slick-prev{
+    left: 5px;
+    z-index: 111;
+    
+}  
+
+.allu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.righht{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+    color: grey;
+}
+
+.breadcrumb a:hover{
+    color: #c0a483;
+}
+
+.checked{
+    color: red;
+
+}
+
+.title-up a{
+    color: grey;
+    
+}
+
+
+.title-up span{
+    font-size: 15px;
+}
+.bigboy{
+    text-align:left ;
+    color: #000000;
+    font-family: "Marcellus", Sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+
+.muney span{
+    color: #c0a483;
+    font-family: "Marcellus", Sans-serif;
+    font-size: 25px;
+
+}
+
+.wrdss p{
+    font-family: "Open Sans",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #868686;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.addtocart{
+    align-items: center;
+}
+#quantity{
+    width: 125px;
+    border: 0;
+    height: 46px;
+    text-align: center;
+    padding: 10px 40px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid grey;
+    margin-right: 10px;
+}
+#btn{
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+    padding: 10px 90px;
+    font-family: "Marcellus", Sans-serif;
+    
+}
+#heart{
+    border: 1px solid grey;
+    background-color: white;
+    color: grey;
+    padding: 10px 15px;
+    
+}
+
+#btn:hover{
+    background-color: #c0a483;
+}
+#heart:hover{
+    background-color: #c0a483;
+    color: white;
+}
+
+#buy{
+border: 1px solid #c0a483;
+background-color: #c0a483;
+color: white;
+padding: 10px 202px;
+margin-top: 10px;
+font-family: "Marcellus", Sans-serif;
+margin-bottom: 30px;
+}
+
+#buy:hover{
+    background-color: #796249;
+}
+
+.uclu{
+    display: flex;
+}
+.uclu p{
+    color: #868686;
+    margin-right: 10px;
+}
+.uclu a{
+    color: black;
+}
+
+.uclu i{
+    margin-right: 10px;
+}
+
+.uclu a:hover{
+    color: #c0a483;
+}
+.uclu span{
+    margin: 0px 5px;
+}
+.ortalar{
+    display: flex;
+    margin-bottom: 50px;
+}
+.collapsible {
+    background-color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 15px;
+  }
+  .collapsiblee {
+    background-color: white;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  .active, .collapsiblee:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 50px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  .yux{
+    padding: 1px 10px;
+    position: relative;
+}
+.new{
+    position: relative;
+    display: inline-block;
+    border: 1px solid #868686;
+}
+.new .imgs{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+}
+.new:hover .imgs {
+    display: inline;
+}
+.down{
+    position: relative;
+    display: inline-block;
+}
+.down .imgs{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+}
+.down:hover .imgs {
+    display: inline;
+}
+
+
+.upp h2{
+    text-align: center;
+    color: #000000;
+    font-family: "Marcellus", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-top: 50px;
+    padding: 50px;
+}
+.upp span{
+    color: #c0a483;
+}
+.titles{
+    text-align: center;
+}
+.title-up{
+    margin-bottom: 0;
+}
+
+.title-mid a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Marcellus", Sans-serif;
+
+}
+
+.title-mid a:hover{
+    color: #c0a483;
+}
+.extra span {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: #c0a483;
+    color: white;
+    line-height: 1,5rem;
+    width: 50px;
+    text-align: center;
+  }
+
+  .discount span {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: rgb(158, 12, 12);
+    color: white;
+    line-height: 1,5rem;
+    width: 50px;
+    text-align: center;
+  }
+  .price span{
+    font-family: "Marcellus", Sans-serif; 
+  }
+  .titles p{
+    font-size: 12px;
+    margin: 10px 0;
+  }
+  #frst{
+    text-decoration: line-through;
+    color: grey;
+}
+.price span{
+color: #c0a483;
+}
+  .u h2{
+    text-align: center;
+    color: #000000;
+    text-decoration: underline #c0a483;
+    font-family: "Marcellus", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-top: 50px;
+    padding: 50px;
+  }
+
+  footer{
+    background-color:#F6F6F6;
+}
+  .foot-all h6{
+    font-family: "Marcellus", Sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+}
+
+#pic{
+    padding-left: 140px;
+}
+
+.con{
+    display: none;
+}
+#yes{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 10px;
+    
+}
+
+.a{
+    margin-bottom: 50px;
+}
+
+@media(max-width:576px){
+    .all-header{
+        display: none;
+    }
+    .mob{
+        margin: 20px 10px ;
+    }
+    .mob-all{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #a{
+        font-size: 25px;
+    }
+    #b{
+        font-size: 25px;
+    }
+
+    #zoomC{
+        height: 400px;
+    }
+
+    .box{
+        width: 365px;
+        height: 500px;
+    }
+
+    .slider{
+        width: 100%;
+    }
+
+    .slider a{
+        padding: 0;
+    }
+
+    
+}
+
