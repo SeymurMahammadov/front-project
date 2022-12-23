@@ -12,7 +12,6 @@
     text-align: center;
     top: 35%;
     left: 12%;
-    transform: 50%;
     translate: 50%;
 }
 
@@ -56,7 +55,6 @@ padding: 10px 30px;
     text-align: center;
     top: 35%;
     left:12%;
-    transform: 50%;
     translate: 50%;
 }
 
@@ -534,6 +532,142 @@ footer{
     color: white;
     
 }
+.form-it{
+    color: #fff;
+}
+#frm{
+    text-decoration: underline white;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Marcellus", Sans-serif;
+    
+}
+#frm::placeholder{
+    color: white;
+    opacity: 1;
+}
+#btn{
+    text-decoration: underline white;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Marcellus", Sans-serif;
+    
+}
+
+#btn{
+    color: white;
+}
+
+.finish img{
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+}
+#man{
+    position: relative;
+}
+
+.pls img{
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 10%;
+    animation:animate 3s linear infinite;
+}
+.plss img{
+    width: 500px;
+    position: absolute;
+    bottom: 0px;
+    right: 3%;
+    animation:animatee 3s linear infinite;
+}
+.gud img{
+    width: 70px;
+    position: absolute;
+    bottom: 30px;
+    right: 7%;
+    animation: go 3s linear infinite;
+    
+}
+.gudd img{
+    width: 70px;
+    position: absolute;
+    bottom: 30px;
+    left: 7%;
+    animation: goo  3s linear infinite;
+    
+}
+.finishh img{
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+}
+@keyframes go{
+    0%{
+        width: 70px;
+   }
+
+   50%{
+      width: 80px;
+   }
+   100%{
+       width: 70px;
+   }
+
+    }
+
+    @keyframes goo{
+        0%{
+            width: 70px;
+       }
+    
+       50%{
+          width: 80px;
+       }
+       100%{
+           width: 70px;
+       }
+    
+        }
+
+    
+@keyframes animate {
+    0%{
+         left:10%;
+    }
+
+    50%{
+       left:12%;
+    }
+    100%{
+        left: 10%;
+    }
+    
+}
+
+@keyframes animatee {
+    0%{
+        right: 3%;
+    }
+
+    50%{
+        right: 5%;
+    }
+    100%{
+        right: 3%;
+    }
+    
+
+    
+}
 @media(max-width:576px){
 .all-header{
     display: none;
@@ -569,5 +703,11 @@ footer{
 }
 #man img{
  width: 150%;
+}
+#frm{
+    font-size: 25px;
+}
+#yes{
+    margin-bottom: 10px;
 }
 }

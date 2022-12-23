@@ -72,7 +72,7 @@
 }
 
 .word-up p{
-    font-family: Open Sans,sans-serif;
+    font-family: "Open Sans",sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.75;
@@ -86,6 +86,7 @@
     font-weight: 500;
     line-height: 1.2;
     font-size: 2rem;
+    font-family: "Marcellus", Sans-serif;
 }
 
 #ok{
@@ -131,7 +132,15 @@
     color: #fff;
     margin-bottom: 20px;
 }
+.icon-wrds p{
+color: #868686;
+}
 
+.iconn i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    
+}
 .tog{
     display: flex;
     justify-content: left;
@@ -243,7 +252,9 @@
 #pic{
     padding-left: 140px;
 }
-
+#o{
+    overflow-y:hidden
+}
 @media(max-width:576px){
     .all-header{
         display: none;
@@ -255,5 +266,63 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    #o{
+        width: 100%;
+    }
+
+    .all-box{
+        display: block;
+        
+    }
+    .box{
+        margin-top: 120px;
+    }
+
+    .word-down{
+     margin-bottom: 120px;
+    }
+
+    .rightt{
+        text-align: center;
+        display: block;
+    }
+    .iconnn{
+        margin-bottom: 10px;
+    }
+    .wrds h2{
+        margin-bottom: 10px;
+    }
+
+    .words-all{
+        text-align: center;
+    }
+    .word-up p{
+        text-align: center;
+    }
+
+    .word-up h2{
+        margin: 3.5rem 0;
+    }
+
+    #yesss{
+        margin-bottom: 10px;
+    }
+    .cont-all{
+        display: block;
+    }
+
+    #okk{
+        border: 0;
+        padding: 10px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 14px;
+        position: absolute;
+        width: 50%;
+    }
+    #btnn{
+    padding: 0 55px;
     }
     }

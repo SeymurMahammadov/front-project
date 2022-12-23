@@ -226,7 +226,6 @@ margin-bottom: 30px;
     margin: 0px 5px;
 }
 .ortalar{
-    display: flex;
     margin-bottom: 50px;
 }
 .collapsible {
@@ -249,7 +248,7 @@ margin-bottom: 30px;
     font-size: 15px;
   }
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  
   .active, .collapsible:hover {
     background-color: #ccc;
   }
@@ -257,7 +256,7 @@ margin-bottom: 30px;
     background-color: #ccc;
   }
   
-  /* Style the collapsible content. Note: hidden by default */
+  
   .content {
     padding: 0 50px;
     display: none;
@@ -409,6 +408,16 @@ color: #c0a483;
     margin-bottom: 50px;
 }
 
+.boxu{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #868686;
+}
+
+.rrrht{
+    text-align: right;
+}
+
 @media(max-width:576px){
     .all-header{
         display: none;
@@ -446,6 +455,27 @@ color: #c0a483;
         padding: 0;
     }
 
-    
+    .allu{
+        display: block;
+    }
+    .righht{
+        margin-left: 0;
+    }
+
+    #buy{
+        padding: 15px 144px;
+    }
+
+    #quantity{
+        width: 110px;
+    }
+
+    #btn{
+        padding: 10px 40px;
+    }
+
+    .titles p{
+        font-size: 9px;
+    }
 }
 
