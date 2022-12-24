@@ -532,7 +532,7 @@ p {
 }
 .price span{
     color: #c0a483;
-    font-family: "Marcellus", Sans-serif; ;
+    font-family: "Marcellus", Sans-serif;
    
     }
     footer{
@@ -800,6 +800,22 @@ a:hover {
   }
   .pagination-page-number.active {
     color: #fff;
+  }
+
+  .rift i{
+    position: relative;
+  }
+
+  .rift span{
+   
+    background-color: #fff;
+    color: black;
+    padding: 2px 1px;
+    font-size: 9px;
+    position: absolute;
+    top: 35px;
+    border-radius: 100%;
+
   }
   
 @media(max-width:576px){

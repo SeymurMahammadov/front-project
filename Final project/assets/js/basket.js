@@ -24,8 +24,6 @@ function GetItems() {
             `
           
         }
-        
-    
         document.querySelector('.table tbody').innerHTML = html
     }
 

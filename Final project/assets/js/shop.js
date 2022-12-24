@@ -112,3 +112,53 @@ function () {
     color: "#fff" });
 
 });
+
+
+
+let buttons=document.querySelectorAll('.btn');
+
+if(localStorage.getItem('products') === null) {
+  localStorage.setItem('products',JSON.stringify([]))
+}
+
+for(let btn of buttons) {
+  btn.onclick = function(e) {
+    
+      e.preventDefault();
+
+      let pr_id = e.target.parentElement.parentElement.id;
+      let pr_name = e.target.previousElementSibling.previousElementSibling.firstElementChild.innerHTML;
+      let pr_price = e.target.previousElementSibling.firstElementChild.innerHTML;
+      let pr_image = e.target.parentElement.parentElement.firstElementChild.src;
+      
+      let basket = JSON.parse(localStorage.getItem('products'));
+
+      let exist_prod = basket.find(pr => pr.Id === pr_id);
+
+      if(exist_prod === undefined) {
+          basket.push({
+              Id: pr_id,
+              Name: pr_name,
+              Price: pr_price,
+              Image:pr_image,
+              Count: 1
+          })
+
+      }
+      else{
+          exist_prod.Count += 1;
+      }
+
+
+      localStorage.setItem('products',JSON.stringify(basket));
+      
+      BasketCount();
+  }
+}
+
+function BasketCount() {
+let basket = JSON.parse(localStorage.getItem('products'));
+document.getElementById('count').innerHTML =  basket.length;
+}
+
+BasketCount();
