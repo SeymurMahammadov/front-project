@@ -173,3 +173,27 @@ $('.slider').slick({
       }
     }
   }
+
+  function myFunctionnn() {
+    document.getElementById("myDropdownnn").classList.toggle("show");
+  }
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtnnn')) {
+      var dropdowns = document.getElementsByClassName("dropdownnn-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+
+
+let menu=document.querySelector('#a')
+let sidebar=document.querySelector('#sidebar')
+
+menu.addEventListener('click',()=>{
+  sidebar.classList.toggle("active")
+})
