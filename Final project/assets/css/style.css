@@ -245,6 +245,10 @@ padding: 10px 30px;
     color: black;
 }
 
+#log p{
+    color: black;
+    cursor: pointer;
+}
 .mob-all {
     display: none;
 }
@@ -703,11 +707,38 @@ footer{
     display: block !important;
 }
 
+.activee{
+    display: block !important;
+}
+
 .obaa{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+#search{
+    position: absolute;
+    right: 17%;
+    display: none;
+  
+}
+.btn-primary{
+    margin-left: 135px;
+}
+#sign{
+    width: 20%;
+    position: absolute;
+    right: 16%;
+    z-index: 999;
+    border: 1px solid;
+    padding: 15px;
+    background-color: darkgray;
+    border-radius: 10px;
+    display: none;
+}
+
+
 @keyframes go{
     0%{
         width: 70px;

@@ -103,3 +103,25 @@ $('.slider').slick({
      
     ]
   });
+
+  let menu=document.querySelector('#a')
+let sidebar=document.querySelector('#sidebar')
+
+menu.addEventListener('click',()=>{
+  sidebar.classList.toggle("active")
+})
+
+let search=document.querySelector('#z')
+let srch=document.querySelector('#search')
+
+search.addEventListener('click',()=>{
+  srch.classList.toggle("activee")
+})
+
+
+let signbut=document.querySelector('#olar')
+let sign=document.querySelector('#sign')
+
+signbut.addEventListener('click',()=>{
+  sign.classList.toggle("activee")
+})

@@ -135,7 +135,26 @@
 .icon-wrds p{
 color: #868686;
 }
+#sidebar a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-family: "Marcellus", Sans-serif;
+    display: block;
+    
+}
+#sidebar{
+    display: none;
+    background-color: white;
+    align-items: flex-start;
+    padding: 20px;
+    width: 70%;
+    margin-top: 10px;
+}
 
+.active{
+    display: block !important;
+}
 .iconn i{
     font-size: 40px;
     margin-bottom: 10px;
@@ -266,6 +285,7 @@ color: #868686;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 10px;
     }
 
     #o{

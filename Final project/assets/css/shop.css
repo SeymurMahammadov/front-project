@@ -625,6 +625,27 @@ p {
     color: #000;
     margin-left: 20px;
    }
+
+   #sidebar a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-family: "Marcellus", Sans-serif;
+    display: block;
+    
+}
+#sidebar{
+    display: none;
+    background-color: white;
+    align-items: flex-start;
+    padding: 20px;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.active{
+    display: block !important;
+}
     
     .title-mid a{
         color: black;
@@ -817,6 +838,10 @@ a:hover {
     border-radius: 100%;
 
   }
+
+  .activee{
+    display: none !important;
+}
   
 @media(max-width:576px){
     .all-header{
@@ -846,6 +871,7 @@ a:hover {
     }
 .all-cont-left{
     display: none;
+    width: 100%;
 }
 
 .llft p{

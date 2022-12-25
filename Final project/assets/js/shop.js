@@ -156,9 +156,29 @@ for(let btn of buttons) {
   }
 }
 
+
+
 function BasketCount() {
 let basket = JSON.parse(localStorage.getItem('products'));
 document.getElementById('count').innerHTML =  basket.length;
 }
 
 BasketCount();
+
+
+let menu=document.querySelector('#a')
+let sidebar=document.querySelector('#sidebar')
+
+menu.addEventListener('click',()=>{
+  sidebar.classList.toggle("active")
+})
+
+
+let mnu=document.querySelector('#z')
+let cont=document.querySelector('#zz')
+let right=document.querySelector('#zzz')
+
+mnu.addEventListener('click',()=>{
+  cont.classList.toggle("active")
+  right.classList.toggle("activee")
+})

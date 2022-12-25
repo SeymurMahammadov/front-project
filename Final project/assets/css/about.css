@@ -22,6 +22,30 @@
     color: #fff;
 }
 
+#sidebar a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-family: "Marcellus", Sans-serif;
+    display: block;
+    
+}
+#sidebar{
+    display: none;
+    background-color: white;
+    align-items: flex-start;
+    padding: 20px;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.active{
+    display: block !important;
+}
+
+.activee{
+    display: block !important;
+}
 
 .miidd{
     display: flex;
@@ -36,8 +60,13 @@
     margin-right: 10px;
 }
 
-#log a{
+#log a {
     color: white;
+    
+}
+#log p{
+    color: white;
+    cursor: pointer;
 }
 
 .mob-all {
@@ -329,6 +358,31 @@ footer{
 
 .con{
     display: none;
+}
+
+#search{
+    position: absolute;
+    right: 3%;
+    top: 13%;
+    display: none;
+   
+  
+}
+.btn-primary{
+    margin-left: 135px;
+}
+#sign{
+    width: 20%;
+    position: absolute;
+    right: 4%;
+    top: 13%;
+    z-index: 999;
+    border: 1px solid;
+    padding: 15px;
+    background-color: darkgray;
+    border-radius: 10px;
+    display: none;
+    
 }
 
 @media(max-width:576px){
